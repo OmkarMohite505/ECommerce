@@ -22,5 +22,12 @@ public class Circle extends Shape{
 		System.out.println("circle : toString");
 		return "Circle "+super.toString()+" radius="+radius;
 	}
+
+	@Override
+	public void draw(){
+		System.out.println("testing draw ");
+		return ;
+	}
+
 	
 }

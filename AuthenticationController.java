@@ -21,6 +21,10 @@ public class AuthenticationController {
 		//added in app property file
 		System.out.println("in auth user "+request.getHeader("authorization"));
 		System.out.println("-----------  com.app.controller;  -------   AuthenticationController------authenticateUser  --->    method");
+		System.out.println("TESTING CLONE =============");
+		System.out.println("TESTING CLONE =============");
+	
+	
 		return new AuthenticationResponse("Successful Authentication");
 	}
 }

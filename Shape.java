@@ -1,6 +1,6 @@
 package shapes;
 
-public class Shape {
+public abstract class Shape {
 	private int x, y;
         private String color;
 	private int width;
@@ -10,6 +10,10 @@ public class Shape {
 		this.y = y;
 	}
 	
+  public abstract void draw();
+
+
+
 
 	@Override
 	public String toString() {
