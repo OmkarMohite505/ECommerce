@@ -17,6 +17,11 @@ public class ShapeFactory {
 
 		case 1:
 			return new Rectangle(20, 45, 12, 10);
+
+		case 3:
+		return null;
+
+
 		default:
 			return null;
 		}
