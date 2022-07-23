@@ -1,4 +1,4 @@
-//aug Release code
+//aug  First Release code
 
 //This is Ravi Tamabde addition
 //All code addition is from the point of view of next release of august
@@ -30,7 +30,16 @@ public class AuthenticationController {
 		//generate response with authentication token sent by facebook server
 		//send response with authenticadtion token in form of 
 		//encrypted string
-		
+
+		/*
+		 * 
+		 * 
+			Use OAUTH authentication along with facebook id
+		 * 
+		 	Integrate OAUTH along with Instagram
+		 * 
+		 */
+
 	}
 	
 	@GetMapping
