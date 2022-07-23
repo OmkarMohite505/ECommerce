@@ -1,10 +1,8 @@
-//aug  final release code
+//aug  First Release code
 
 //This is Ravi Tamabde addition
 //All code addition is from the point of view of next release of august
 //started working on applying facebook authentication
-
-// Unit test for facebook authentication added
 
 package com.app.controller;
 
