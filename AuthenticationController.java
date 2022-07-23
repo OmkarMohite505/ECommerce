@@ -1,5 +1,8 @@
+//aug Release code
+
 //This is Ravi Tamabde addition
 //All code addition is from the point of view of next release of august
+//started working on applying facebook authentication
 
 package com.app.controller;
 
@@ -16,6 +19,20 @@ import com.app.pojos.AuthenticationResponse;
 @RequestMapping("/api/auth")
 @CrossOrigin//(origins = "http://localhost:4200")
 public class AuthenticationController {
+	
+	@GetMapping
+	public AuthenticationResponse Login(HttpServletRequest request){
+
+
+		//retrieve user credentials from request object
+		//inovke rest api of Facebook provider
+		//Check the authentication indentity  provided by facebook rest api
+		//generate response with authentication token sent by facebook server
+		//send response with authenticadtion token in form of 
+		//encrypted string
+		
+	}
+	
 	@GetMapping
 	public AuthenticationResponse authenticateUser(HttpServletRequest request)
 	{
